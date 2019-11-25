@@ -28,7 +28,8 @@ module.exports = {
     new webpack.DefinePlugin({
       // global app config object
       config: JSON.stringify({
-        apiUrl: 'http://laravel-server.test/api'
+        apiUrl: 'https://laravel-test-pos.herokuapp.com/api'
+        /* apiUrl: 'http://laravel-server.test/api' */
       })
     })
   ],

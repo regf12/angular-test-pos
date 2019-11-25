@@ -39,3 +39,6 @@ typings
 
 # Generated files
 dist
+
+package-lock.json
+yarn.lock

@@ -1,17 +1,13 @@
 {
-  "name": "angular-jwt-authentication",
+  "name": "Angular-test-pos",
   "version": "1.0.0",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/adityatyagi/Angular-JWT-Authentication.git"
-  },
   "scripts": {
     "build": "webpack --mode production",
-    "start": "webpack-dev-server --mode development --open",
+    "start": "node server.js",
     "dev": "webpack-dev-server --mode development --open"
   },
-  "license": "MIT",
   "dependencies": {
+    "@angular/cli": "^8.3.19",
     "@angular/common": "^6.0.0",
     "@angular/compiler": "^6.0.0",
     "@angular/core": "^6.0.0",
@@ -20,6 +16,7 @@
     "@angular/platform-browser-dynamic": "^6.0.0",
     "@angular/router": "^6.0.0",
     "core-js": "^2.5.5",
+    "express": "^4.17.1",
     "rxjs": "^6.1.0",
     "zone.js": "^0.8.26"
   },
@@ -33,5 +30,10 @@
     "webpack": "4.8.1",
     "webpack-cli": "^2.1.5",
     "webpack-dev-server": "3.1.4"
+  },
+  "engines": {
+    "node": "12.13.0",
+    "npm": "6.12.0",
+    "yarn": "1.19.1"
   }
 }
